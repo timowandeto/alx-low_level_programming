@@ -3,22 +3,22 @@
 /**
  * main - Entry point
  *
- * Description: Prints the lowercase alphabet in reverse, followed by a new line,
- *              using only the putchar function twice.
+ * Description: Prints the lowercase alphabet in reverse,
+ *              followed by a new line, using only the putchar function.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 122; i >= 97; i--)
-    {
-        putchar(i);
-    }
+	for (i = 122; i >= 97; i--)
+	{
+		putchar(i);
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
 
