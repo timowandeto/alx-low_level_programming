@@ -1,1 +1,1 @@
-positive anything is better tahn negative nothing
+functions and nested loops
