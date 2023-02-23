@@ -1,4 +1,4 @@
 #!/bin/bash
 trueknowledge_val=$TRUEKNOWLEDGE
-result=$((128 + trueknowledge_val)
-echo "$result"
+result=$((val + 128))
+printf "%08d\n" "$result"
