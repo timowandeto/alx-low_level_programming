@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Define the C file name
+CFILE="main.c"
+
+# Define the output file name based on the C file name
+OUTPUT_FILE="${CFILE%.*}.s"
+
+# Generate the assembly code using GCC and output to the specified file
+gcc -S -masm=intel -o "$OUTPUT_FILE" "$CFILE"
+
