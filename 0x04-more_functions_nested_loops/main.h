@@ -1,13 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*
- * file -main.h
- * Author: timowandeto
- * Desc: Header contains prototypes for all functions used in 0x04-more functions more nested loops
- *
- */
-
 int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_Line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+
 
 #endif
