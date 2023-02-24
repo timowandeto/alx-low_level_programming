@@ -1,24 +1,20 @@
 #include <stdio.h>
+/**
+ * main - Entry point 
+ *
+ * Return: Always 0 (success)
+ */
 
-int main() {
-    int i;
+int main(void)
+{
+	char c;
 
-    // Print lowercase alphabet
-    for (i = 97; i <= 122; i++) {
-        putchar(i);
-    }
-
-    // Print newline
-    putchar('\n');
-
-    // Print uppercase alphabet
-    for (i = 65; i <= 90; i++) {
-        putchar(i);
-    }
-
-    // Print newline
-    putchar('\n');
-
-    return 0;
+	c= 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+			}
+	putchar('\n');
+	return(0);
 }
-
