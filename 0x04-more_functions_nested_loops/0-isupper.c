@@ -1,3 +1,5 @@
+vi 0-isupper.c
+
 #include "main.h"
 
 /**
@@ -16,3 +18,4 @@ int _isupper(int c)
 		return (0);
 	}
 }
+
