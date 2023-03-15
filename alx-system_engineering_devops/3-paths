@@ -1,3 +1,0 @@
-#!/bin/bash
-num_dirs=$(echo "$PATH" | tr ':' '\n' | wc -l)
-echo "The number of directories in the PATH is: $num_dirs"
